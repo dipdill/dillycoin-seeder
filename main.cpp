@@ -406,7 +406,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {"dnsseed.dillycoin.com", ""};
-static const string testnet_seeds[] = {"dnsseed.dillycoin.com", ""};
+static const string testnet_seeds[] = {"testnet-dnsseed.dillycoin.com", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
